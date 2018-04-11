@@ -43,7 +43,7 @@ var MovieTitle = React.createClass({
 
 var MovieDescription = React.createClass({
   propTypes: {
-    text: React.PropTypes.string.isRequired
+    desc: React.PropTypes.string.isRequired
   },
   render: function () {
     return React.createElement('p', {}, this.props.desc);
